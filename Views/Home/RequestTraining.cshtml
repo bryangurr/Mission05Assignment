@@ -1,0 +1,81 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    .box {
+        width: 100%;
+        max-width: 400px;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .box h2 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    .box input,
+    .box select,
+    .box textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 1rem;
+    }
+
+    .box button {
+        width: 100%;
+        background: #007bff;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    .box button:hover {
+        background: #0056b3;
+    }
+
+
+    html {
+        background-color: #ffffff;
+    }
+</style>
+@model Request
+
+<div class="box">
+    <h1>Request Training</h1>
+    <form>
+        <label asp-for="hours">How many hours of training do you need?</label> <br/>
+        <input asp-for="hours" type="number" min="0" id="hours"/>
+        <br/> <br/>
+        <label>Rate: $</label>
+        <input value="17" id="trainingRate" style="width:40px;" readonly/>
+        <label for="trainingRate"> per hour</label>
+
+        <br/> <br/>
+        <label for="totalPrice">Total: $</label>
+        <input value="0" id="totalPrice" type="number" readonly/>
+        <br/> <br/>
+        <input type="button" value="Calculate" id="calculatePrice"/>
+
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/js/site.js"></script>
+
+
+    </form>
+</div>
