@@ -28,6 +28,4 @@ C:\Users\bryan\Box\2025 Winter\IS 413\Mission05Assignment\obj\Debug\net8.0\refin
 C:\Users\bryan\Box\2025 Winter\IS 413\Mission05Assignment\obj\Debug\net8.0\Mission05Assignment.pdb
 C:\Users\bryan\Box\2025 Winter\IS 413\Mission05Assignment\obj\Debug\net8.0\Mission05Assignment.genruntimeconfig.cache
 C:\Users\bryan\Box\2025 Winter\IS 413\Mission05Assignment\obj\Debug\net8.0\ref\Mission05Assignment.dll
-C:\Users\bryan\Box\2025 Winter\IS 413\Mission05Assignment\bin\Debug\net8.0\Mission05Assignment.staticwebassets.endpoints.json
-C:\Users\bryan\Box\2025 Winter\IS 413\Mission05Assignment\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\bryan\Box\2025 Winter\IS 413\Mission05Assignment\obj\Debug\net8.0\staticwebassets\msbuild.Mission05Assignment.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\bryan\Box\2025 Winter\IS 413\Mission05Assignment\obj\Debug\net8.0\Mission05Assignment.sourcelink.json

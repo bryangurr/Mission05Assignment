@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\bryan\\Box\\2025 Winter\\IS 413\\Mission05Assignment\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Mission05Assignment.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Mission05Assignment.fuqhxx2n85.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Mission05Assignment.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\bryan\\Box\\2025 Winter\\IS 413\\Mission05Assignment\\wwwroot\\css\\myStyles.css",
@@ -263,10 +263,6 @@
     {
       "Id": "C:\\Users\\bryan\\Box\\2025 Winter\\IS 413\\Mission05Assignment\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Mission05Assignment.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Mission05Assignment.Microsoft.AspNetCore.StaticWebAssets.props",
